@@ -1,0 +1,458 @@
+.header{
+    height: 70px;
+    background-color: rgb(220, 218, 218);
+    position: sticky;
+    top: 0;
+    margin: -8px;
+    z-index: 1;
+}
+.mainlogo{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+}
+.reslogo{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -65px;
+}
+#rlogo{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+}
+#lrlogo{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    transform: rotate(90deg);
+}
+#close{
+    position: absolute;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 1230px;
+    font-size: 30px;
+    
+}
+.div2{
+    height: 80px;
+    background-color: white;
+    margin: -8px;
+    position: relative;
+}
+.constxt{
+    font-size: 30px;
+    position: absolute;
+    left: 70px;
+}
+#menubar{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 1200px;
+}
+.mainimage{
+    background-image: url(images/corpman.jpg);
+    height: 600px;
+    background-size: cover;
+    margin: -8px;
+    position: relative;
+}
+.contbox{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+.comm{
+    font-size: 60px;
+    margin-left: 10px;
+}
+.aboutbtn{
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 15px;
+    width: 120px;
+    background-color: aquamarine;
+    border: 0;
+}
+.startbtn{
+    font-size: 15px;
+    padding: 15px;
+    width: 120px;
+    margin-left: 20px;
+    background-color: rgb(2, 2, 68);
+    color: white;
+    border: 0;
+}
+.div4{
+    height: 200px;
+    background-color: rgb(2, 2, 121);
+    margin-top: -22px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+    position: relative;
+}
+.content41{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.p41{
+    padding-left: 30px;
+}
+.servicebtn{
+    position: absolute;
+    left: 1050px;
+    top: 90px;
+    padding: 10px;
+    width: 120px;
+    background-color: white;
+}
+.div5{
+    text-align: center;
+    margin-top: 100px;
+}
+.div6{
+    margin-top: 100px;
+    margin-left: 60px;
+    display: flex;
+}
+.div61{
+    margin-right: 30px;
+    height: 480px;
+    width: 350px;
+    background-color: rgb(195, 250, 232);
+}
+.img61{
+    height: 300px;
+    width: 350px;
+}
+.div62{
+    margin-right: 30px;
+    height: 480px;
+    width: 350px;
+    background-color: rgb(195, 250, 232);
+}
+.div63{
+    margin-right: 30px;
+    height: 480px;
+    width: 350px;
+    background-color: rgb(195, 250, 232);
+}
+.con6{
+    text-align: center;
+}
+.pcon6{
+    text-align: center;
+    padding: 15px;
+}
+.div7{
+    margin-top: 50px;
+    background-color: rgb(38, 38, 120);
+    height: 550px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.cont71{
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(157, 157, 231);
+    font-size: larger;
+}
+.cont72{
+    display: flex;
+    color: rgb(157, 157, 231);
+    font-size: 35px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.count1{
+    padding-right: 200px;
+}
+.count2{
+    padding-right: 210px;
+}
+.count3{
+    padding-right: 200px;
+}
+.cont73{
+    display: flex;
+    color: rgb(157, 157, 231);
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+.des1{
+    padding-right: 120px;
+}
+.des2{
+    padding-right: 90px;
+}
+.des3{
+    padding-right: 110px;
+}
+.div8{
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+}
+.img81{
+    height: 600px;
+    width: 600px;
+    background-image: url(images/planning.avif);
+    background-size: cover;
+}
+.cont81{
+    height: 450px;
+    width: 550px;
+    margin-top: 120px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+.hcont81{
+    color: gray;
+    
+}
+.pcont81{
+    font-size: 20px;
+    line-height: 30px;
+}
+.learnbtn{
+    padding: 10px;
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border: 0;
+}
+
+@media only screen and (max-width:320px) {
+    body{
+        margin: 0px;
+    }
+    .div2{
+        height: 60px;
+        width: 320px;
+        position: relative;
+    }
+    .constxt{
+        font-size: 20px;
+        position: absolute;
+        left: 30px;
+    }
+    #menubar{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        top: 25px;
+        left: 280px;
+    }
+    .mainimage{
+        background-image: url(images/corpman.jpg);
+        height: 450px;
+        width: 320px;
+        background-size: cover;
+        margin: -8px;
+        position: relative;
+    }
+    .contbox{
+        height: 200px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        top: 200px;
+        left: 10px;
+    }
+    .comm{
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .aboutbtn{
+        font-size: 10px;
+        margin-left: 30px;
+        padding: 10px;
+        width: 100px;
+        background-color: aquamarine;
+        border: 0;
+    }
+    .startbtn{
+        font-size: 10px;
+        padding: 10px;
+        width: 100px;
+        margin-left: 20px;
+        background-color: rgb(2, 2, 68);
+        color: white;
+        border: 0;
+    }
+    .div4{
+        height: 300px;
+        background-color: rgb(2, 2, 121);        
+        color: white;
+        width: 320px;
+        position: relative;
+    }
+    .content41{
+        padding-top: 50px;
+        padding-left: 30px;
+       font-size: 20px;
+       padding-right: 20px;
+    }
+    .p41{
+        padding-left: 30px;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .servicebtn{
+        position: absolute;
+        left: 30px;
+        top: 200px;
+        padding: 10px;
+        width: 120px;
+    }
+    .div5{
+        width: 310px;
+        margin-top: 50px;
+    }
+    .capacity{
+        display: inline;
+        font-size: 20px;
+    }
+    .p5{
+        display: inline;
+        width: 320px;
+        font-size: 13px;
+    }
+    .div6{
+        margin-top: 30px;
+        margin-left: 5px;
+        display: block;
+    }
+    .div61{
+        height: 430px;
+        width: 300px;
+        margin-left: 5px;
+    }
+    .img61{
+        height: 300px;
+        width: 300px;
+    }
+    .con6{
+        font-size: 20px;
+    }
+    .pcon6{
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .div62{
+        margin-top: 5px;
+        height: 430px;
+        width: 300px;
+        margin-left: 5px;
+    }
+    .div63{
+        margin-top: 5px;
+        height: 430px;
+        width: 300px;
+        margin-left: 5px;
+    }
+    .div7{
+        margin-top: 10px;
+        height: 550px;
+        width: 320px;
+        position: relative;
+    }
+    .cont71{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .cont72{
+        display: block;
+        font-size: 20px;
+    }
+    .count1{
+        position: absolute;
+        top: 180px;
+        left: 140px;
+        padding-right: 0px;
+    }
+    .des1{
+        position: absolute;
+        top: 220px;
+        left: 100px;
+        padding-right: 20px;
+    }
+    .count2{
+        position: absolute;
+        top: 260px;
+        left: 140px;
+        padding: 0px;
+    }
+    .des2{
+        position: absolute;
+        top: 300px;
+        left: 70px;
+        padding-right: 20px;
+        
+    }
+    .count3{
+        position: absolute;
+        top: 340px;
+        left: 140px;
+        padding: 0px;
+    }
+    .des3{
+        position: absolute;
+        top: 380px;
+        left: 80px;
+        padding-right: 20px;
+    }
+    .count4{
+        position: absolute;
+        top: 420px;
+        left: 140px;
+    }
+    .des4{
+        position: absolute;
+        top: 460px;
+        left: 80px;
+        padding-right: 20px;
+    }
+    .cont73{
+        display: block;
+        font-size: 20px;
+    }
+    .div8{
+        display: block;
+        width: 320px;
+    }
+    .img81{
+        height: 400px;
+        width: 320px;
+    }
+    .cont81{
+        width: 310px;
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 15px;
+        height: 400px;
+        
+    }
+    .pcont81{
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .learnbtn{
+        padding: 5px;
+        width: 120px;
+    }
+}
